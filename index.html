@@ -6,7 +6,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="./stlye.css">
 </head>
-<body>
+<body onload="myfunc()">
     <div id="main"> 
         <h1>TIC TAC TOE</h1> 
         <p id="ins"> 
@@ -18,19 +18,19 @@
         <br><br> 
 <div class="ui">
 <div class="row">
-    <input type="text" readonly  id="b1" class="cell"  onclick="myfunc(); myfunc_3()">
-    <input type="text" readonly  id="b2" class="cell"  onclick="myfunc(); myfunc_4()">
-    <input type="text" readonly  id="b3" class="cell"  onclick="myfunc();  myfunc_5()">
+    <input type="text" readonly  id="b1" class="cell"  onclick="myfunc(); toggleButton(b1)">
+    <input type="text" readonly  id="b2" class="cell"  onclick="myfunc(); toggleButton(b2)">
+    <input type="text" readonly  id="b3" class="cell"  onclick="myfunc();  toggleButton(b3)">
 </div>
 <div class="row">
-    <input type="text" readonly  id="b4" class="cell"  onclick="myfunc(); myfunc_6() ">
-    <input type="text" readonly  id="b5" class="cell"  onclick="myfunc(); myfunc_7()">
-    <input type="text" readonly  id="b6" class="cell"  onclick="myfunc(); myfunc_8()">
+    <input type="text" readonly  id="b4" class="cell"  onclick="myfunc(); toggleButton(b4) ">
+    <input type="text" readonly  id="b5" class="cell"  onclick="myfunc(); toggleButton(b5)">
+    <input type="text" readonly  id="b6" class="cell"  onclick="myfunc(); toggleButton(b6)">
 </div>
 <div class="row">
-    <input type="text" readonly  id="b7" class="cell"  onclick="myfunc(); myfunc_9()">
-    <input type="text" readonly  id="b8" class="cell"  onclick="myfunc(); myfunc_10()">
-    <input type="text" readonly  id="b9" class="cell"  onclick="myfunc(); myfunc_11()">
+    <input type="text" readonly  id="b7" class="cell"  onclick="myfunc(); toggleButton(b7)">
+    <input type="text" readonly  id="b8" class="cell"  onclick="myfunc(); toggleButton(b8)">
+    <input type="text" readonly  id="b9" class="cell"  onclick="myfunc(); toggleButton(b9)">
 </div>
 </div>
 <br>
